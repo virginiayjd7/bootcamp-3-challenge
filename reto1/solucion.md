@@ -20,7 +20,8 @@ tengas instalado docker.
 `$ docker ps -a`
 
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
-   
+   ![](1.png)
+   ![](2.png)
 2. Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado
 docker)
 
