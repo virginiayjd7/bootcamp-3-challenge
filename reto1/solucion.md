@@ -35,7 +35,10 @@ estar parado el contenedor).
 ### Entregable:
 
 - Armar un script en Bash con todos los pasos para crear el contenedor
+  [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/solucion.md)
 
 - Armar una solucion.md y usando Markdown y agregar las images de la solución:
+  
+- [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/Readme.md)
 
 - Documentacion [Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
