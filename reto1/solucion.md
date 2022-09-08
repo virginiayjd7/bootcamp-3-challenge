@@ -22,6 +22,5 @@ estar parado el contenedor).
 
 - Armar una solucion.md y usando Markdown y agregar las images de la solución:
   
-- [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/solucion.md)
+  [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/solucion.md)
 
-- Documentacion [Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
