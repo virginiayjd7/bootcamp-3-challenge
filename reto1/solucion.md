@@ -1,23 +1,6 @@
 # Clase 4 - Docker
 
-## Ejercicio - Inicial 
-
-Crear un contenedor a partir de la imagen nginx , el contenedor se debe llamar servidor_web y se debe acceder a él utilizando el puerto 8181 del ordenador donde
-tengas instalado docker.
-
-`$ docker run -d --name servidor_web -p 8181:80 nginx `
-
-`$ docker ps`
-
-`$ docker images`
-
-`$ docker stop servidor_web`
-
-`$ docker ps`
-
-`$ docker rm servidor_web`
-
-`$ docker ps -a`
+## Solucion Ejercicio - Inicial 
 
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
    ![](1.png)
@@ -35,10 +18,10 @@ estar parado el contenedor).
 ### Entregable:
 
 - Armar un script en Bash con todos los pasos para crear el contenedor
-  [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/solucion.md)
+  [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/reto1.sh)
 
 - Armar una solucion.md y usando Markdown y agregar las images de la solución:
   
-- [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/Readme.md)
+- [Link](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto1/solucion.md)
 
 - Documentacion [Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
