@@ -2,7 +2,7 @@
 
 ### Ejercicio 1 - Containerizar aplicacion `Node.js`
 
-Dockeriza la carpeta [Dockerfile](https://raw.githubusercontent.com/roxsross/bootcamp-3-challenge/master/reto5/hello-bootcamp/index.html)
+Dockeriza la carpeta [Dockerfile](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto5/Dockerfile)
 
 
 ![](1.png)
@@ -17,7 +17,7 @@ Dockeriza la carpeta [Dockerfile](https://raw.githubusercontent.com/roxsross/boo
   ![](4.png)
 
 - Crear el Script que permita realizar todo lo antes mencionado
-[script-reto5](https://raw.githubusercontent.com/roxsross/bootcamp-3-challenge/master/reto5/hello-bootcamp/index.html)
+[script-reto5](https://github.com/virginiayjd7/bootcamp-3-challenge/blob/master/reto5/reto5.sh)
 
 Resultado:
 ![](5.png)
