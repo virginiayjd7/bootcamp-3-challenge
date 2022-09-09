@@ -60,4 +60,4 @@
 
 - Crear Dockerfile
 
-- Subir Registry DockerHub 
+- Subir Registry DockerHub [Dockerhub](https://hub.docker.com/repository/docker/yjd7/bootcamp_nginx)
