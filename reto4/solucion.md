@@ -25,6 +25,7 @@ Debes usar el puerto __5050__ de tu __localhost__ para poder acceder a él.
 ![](7.png)
 
 __Resultado:__
+
 ![](8.png)
 
 ### Ejercicio 3 - Inspeccionar la imagen
