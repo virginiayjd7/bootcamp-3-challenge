@@ -21,19 +21,19 @@
  ![](2.png)
 
 ### Paso 2: Crear un volumen 'static_content' en el CLI de Docker mediante la siguiente instruccion
-	![](3.png)
+![](3.png)
 
 	
 ### Paso 3: Construir la imagen del contenedor. El nombre de la imagen es 'bootcamp_nginx'
-	![](5.png)
+![](5.png)
 	
 ### Paso 4: Crear el contenedor	con nombre 'bootcamp_container' utilizando la imagen construida en el paso 3
 	- Mediante el parametro -v hacemos que el volumen 'static_content' creado en el paso 2 apunte al directorio del contenedor donde se encuentra el archivo index.html. De esta forma persistimos todo el contenido del directorio /usr/share/nginx/html del contenedor en el volumen
-    ![](6.png)
+![](6.png)
 	
 	
 ### Paso 5: Acceder a la URL http://localhost/8080/index.html y comprobar que aparece la pagina deseada
-    ![](7.png)
+![](7.png)
 
 ### Paso 6: Deploy to Registry DockerHub
 
@@ -48,9 +48,10 @@
 ![](8.png)
 - Push en el registry
 ```dcoker push roxsross12/bootcamp_nginx:v1.0.0```
+![](9.png)
 - Listo
 
- ![](9.png)
+ 
 ### Entregable:
 
 - Armar una solucion.md y usando Markdown :
