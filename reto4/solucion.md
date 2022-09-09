@@ -12,8 +12,11 @@ Fíjate en el [Dockerfile](https://raw.githubusercontent.com/roxsross/bootcamp-3
 3. Cambiar los valores para que:
    1. La imagen base sea este otro servidor
    2. El contenido se copie donde apache sirve los archivos.
+
 ![](1.png)
+
 Usa docker build para crear la imagen llamada ```simple-apache:new```
+
 ![](2.png)
 ![](5.png)
 ### Ejercicio 2 - Crear contenedor desde la nueva imagen
