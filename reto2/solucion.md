@@ -18,7 +18,7 @@ Y comprobamos que podemos acceder a la base de datos y que nuestro esquema `prue
 
 - ERROR
   
-    ![](3.png)
+   ![](3.png)
 
 ```bash
 ERROR 1045 (28000): Access denied for user 'invitado'@'localhost' (using password: YES)
@@ -27,7 +27,7 @@ ERROR 1045 (28000): Access denied for user 'invitado'@'localhost' (using passwor
 
 1. Pantallazo donde se comprueba que no se puede borrar la imagen `mariadb` mientras el contenedor `bbdd` está creado.
   
-  ![](2.png)
+   ![](2.png)
 
   
 
