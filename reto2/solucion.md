@@ -17,7 +17,8 @@
 Y comprobamos que podemos acceder a la base de datos y que nuestro esquema `prueba` está creado
 
 - ERROR
-    ![](3.png)
+  
+  ![](3.png)
 
 ```bash
 ERROR 1045 (28000): Access denied for user 'invitado'@'localhost' (using password: YES)
