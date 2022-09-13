@@ -9,25 +9,22 @@
    
    ​	Lanzamos el comando en primer plano para poder leer los posibles mensajes de error que puedan surgir mientras trabajamos desde otra consola. 
    
-   ```bash
-   docker run --name bbdd \
-   --env MARIADB_ROOT_PASSWORD=root \
-   --env MARIADB_DATABASE=prueba \
-   --env MARIADB_USER=invitado \
-   --env MARIADB_PASSWORD=invitado \
-   mariadb --port 3306
-   ```
+   ![](1.png)
   
  2. Pantallazo de la conexión al servidor de base de datos con el usuario creado y de la base de datos `prueba` creada automáticamente.
+   
 
 Y comprobamos que podemos acceder a la base de datos y que nuestro esquema `prueba` está creado
 
-Use Gestor de Base de Datos
-- DBeaver Community [Descarga](https://dbeaver.io/)
-
-
-3. Pantallazo donde se comprueba que no se puede borrar la imagen `mariadb` mientras el contenedor `bbdd` está creado.
+- ERROR
+    ![](3.png)
 
 ```bash
-sudo docker rmi mariadb
+ERROR 1045 (28000): Access denied for user 'invitado'@'localhost' (using password: YES)
 ```
+
+
+1. Pantallazo donde se comprueba que no se puede borrar la imagen `mariadb` mientras el contenedor `bbdd` está creado.
+- Esto se debe a que el contenedor está uso
+  
+  ![](2.png)
